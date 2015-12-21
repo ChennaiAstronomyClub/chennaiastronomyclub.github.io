@@ -12,7 +12,48 @@
     </div>
     <div class="col s12 m6">
       <div class="post-listing">
-        {{ content }}
+        <h4>
+          Welcome
+        </h4>
+        <p>
+         The Chennai Astronomy Club was started in November 2013 by a group of like minded individuals committed to the cause of promoting astronomy in Chennai. Our activities include star parties where astronomers head to dark locations outside the city limits to observe the skies with their equipment. We also conduct regular meetings, hangouts and outreach programs for schools, organisations and the less priviledged.
+        </p>
+        <p>
+         Please check the <a href="/faq/">frequently asked questions</a> for details on joining the club, participating in our events, etc.
+        </p>
+
+        <h6>
+          Upcoming events
+        </h6>
+        {% if site.data.events.size > 0 %}
+          <ul>
+              {% for event in site.data.events %}
+                <li>
+                  {{ event.name }} on {{ event.date }}
+                  <p>
+                    {{ event.description }}
+                  </p>
+                  <p>
+                    <a href="{{ event.link }}">
+                      Registration Link
+                    </a>
+                    {% if event.infolink %}
+                      <br>
+                      <a href="{{ event.infolink }}">
+                        See More
+                      </a>
+                    {% endif %}
+                  </p>
+                </li>
+              {% endfor %}
+          </ul>
+          {% else %}
+            There is no event scheduled for now.
+            Please Check again after a few days.<br>
+            <blockquote>
+              I think music is about our internal life. It's part of the way people touch each other. That's very precious to me. And astronomy is, in a sense, the very opposite thing. Instead of looking inwards, you are looking out, to things beyond our grasp. <strong>Brian May</strong>
+            </blockquote>
+        {% endif %}
         {% include footer.html %}
       </div>
     </div>

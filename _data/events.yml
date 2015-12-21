@@ -1,0 +1,9 @@
+# Events
+# Use this format to add events
+
+#- name: "name"
+#  link: "link with http protocol"
+#  date: "DD full-month-name, YYYY"
+#  description: "long description"
+#  infolink: "optional link."
+

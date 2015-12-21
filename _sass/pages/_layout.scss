@@ -34,9 +34,8 @@
   .author_name {
     display: block;
     color: #dce3ef;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 700;
-    text-transform: lowercase;
     font-style: italic;
     @include text-shadow;
   }

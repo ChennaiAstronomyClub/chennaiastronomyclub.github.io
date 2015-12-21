@@ -9,12 +9,13 @@
   <span class="author_bio mbm">{{ author.bio }}</span>
   <nav class="nav">
     <ul class="nav-list">
-      {% for page in site.pages %} {% if page.title %}
       <li class="nav-item">
-        <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>{% unless forloop.last %}
-        <span>/</span>{% endunless %}
+        <a href="/posts/">Posts</a>
+        <span>/</span>
       </li>
-      {% endif %} {% endfor %}
+      <li class="nav-item">
+        <a href="/faq/">Frequently Asked Questions</a>
+      </li>
     </ul>
   </nav>
   {% include social-links.html %}

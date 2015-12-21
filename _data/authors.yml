@@ -1,12 +1,13 @@
 # Authors
 # You can set another author using as many attributs as a site owner does.
 
-leo:
-  name: Leo
-  email: example@domain.com
-  bio: "What do you want? Coffee, tea or coca cola?"
-
-mike:
-  name: Mike
-  email: example2@domain.com
-  bio: "How old are you?"
+chennaiastronomyclub:  
+  name: Chennai Astronomy Club
+  avatar: avatar.jpg
+  job: "We are stardust"
+  bio: "This is an effort to bring together all the astronomy and science lovers of Chennai. We regularly organise star parties, outreach events and meetups."
+  email: chennaiastronomyclub@gmail.com
+  disqus-shortname:
+  twitter: cacastronomers
+  facebook: ChennaiAstronomyClub
+  github: chennaiastronomyclub
