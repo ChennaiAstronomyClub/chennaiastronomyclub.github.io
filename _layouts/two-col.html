@@ -34,14 +34,22 @@
                     {{ event.description }}
                   </p>
                   <p>
-                    <a href="{{ event.link }}">
-                      Registration Link
-                    </a>
+                    {% if event.link %}
+                      <a href="{{ event.link }}">
+                        Registration Link
+                      </a>
+                    {% endif %}
                     {% if event.infolink %}
                       <br>
-                      <a href="{{ event.infolink }}">
-                        See More
-                      </a>
+                      {% if event.infodesc %}
+                        <a href="{{ event.infolink }}">
+                         {{ event.infodesc }}
+                        </a>
+                        {% else %}
+                        <a href="{{ event.infolink }}">
+                          See More
+                        </a>
+                      {% endif %}
                     {% endif %}
                   </p>
                 </li>
