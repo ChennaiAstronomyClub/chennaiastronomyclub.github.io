@@ -14,16 +14,16 @@ We had a wonderful experience 3 telescopes(8 inch, 5 inch and a 4 inch), several
 
 A few objects that we spotted include(not an exhaustive list):
 
-1) The flame nebula in Orion
-2) M81, M82
-3) M106
-4) The Leo triplet
-5) M95
-6) M96
-7) M105
-8) C96
-9) The Sombrero galaxy
-10) The Orion Nebula - looked like a photograph from the 8 inch scope in Nagala.
+1. The flame nebula in Orion
+2. M81, M82
+3. M106
+4. The Leo triplet
+5. M95
+6. M96
+7. M105
+8. C96
+9. The Sombrero galaxy
+10. The Orion Nebula - looked like a photograph from the 8 inch scope in Nagala.
 
 We missed a few objects like the Whirlpool, Pinwheel and Comet Catalina due to the low hanging clouds in north and east.
 
