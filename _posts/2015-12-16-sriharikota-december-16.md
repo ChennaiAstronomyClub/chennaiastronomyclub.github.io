@@ -2,7 +2,7 @@
 title: Sriharikota visit to see the launch of PSLV C/29
 author: chennaiastronomyclub
 layout: post
-permalink: /2015/12/16/sriharikota-december-19/
+permalink: /2015/12/16/sriharikota-december-16/
 tags: [Rocket Launch, PSLV]
 categories: [Rocket Launch]
 ---
