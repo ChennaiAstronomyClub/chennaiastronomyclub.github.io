@@ -7,3 +7,8 @@
 #  description: "long description"
 #  infolink: "optional link."
 #  infodesc: "optional description for  infolink."
+
+- name: "Messier Marathon"
+  link: "http://goo.gl/forms/Rwlw75aZzR"
+  date: "12 March, 2016"
+  description: "We will be having a Messier marathon style star party on March 12"  
