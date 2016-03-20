@@ -7,12 +7,3 @@
 #  description: "long description"
 #  infolink: "optional link."
 #  infodesc: "optional description for  infolink."
-
-- name: "March Meetup"
-  link: "http://goo.gl/forms/2L2W9x0twk"
-  date: "19 March, 2016"
-  description: "We will have a meetup this Saturday at Anna Nagar(venue will be intimated to selected participants). 
-  				We will be discussing the basis of visual observations so we request only beginners who are interested in attending star parties to sign up.
-  				We can only accommodate 20 people due to the venue size so please sign up only if you are sure of attending it. Timings will be 6 PM to 7:30 PM."
-#  infolink: "optional link."
-#  infodesc: "optional description for  infolink."
