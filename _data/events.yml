@@ -9,5 +9,5 @@
 #  infodesc: "optional description for  infolink."
 
 - name: "Mercury Transit Webcast"
-  link: "transit.chennaiastronomyclub.org"
+  infolink: "transit.chennaiastronomyclub.org"
   date: "09 May, 2016"
