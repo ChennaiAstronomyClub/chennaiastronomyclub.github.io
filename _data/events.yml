@@ -8,6 +8,6 @@
 #  infolink: "optional link."
 #  infodesc: "optional description for  infolink."
 
-- name: "Mercury Transit Webcast"
-  infolink: "https://www.chennaiastronomyclub.org/2016/05/09/mercury-transit-2016/"
-  date: "09 May, 2016"
+- name: "Total Lunar Eclipse"
+  infolink: "/img/2018/01/lunar-eclipse.jpg"
+  date: "31 January, 2018"
