@@ -11,4 +11,4 @@ We had our first monthly meetup today. It was attended by 8 members of CAC consi
 
 We concluded with a Q&A session.
 
-![The group]({{ site.url }}/img/janmeetup.jpg)
+![The group](/img/janmeetup.jpg)

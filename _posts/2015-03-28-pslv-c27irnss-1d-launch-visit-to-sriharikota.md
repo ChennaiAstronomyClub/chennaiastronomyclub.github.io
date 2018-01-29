@@ -8,5 +8,5 @@ categories: [pslv]
 ---
 Team CAC visits Sriharikota 
 
-![Lift-off]({{ site.url }}/img/irnss1d.jpg)
+![Lift-off](/img/irnss1d.jpg)
 <span class="image-credit">Photo Credit: <a href="https://sivasubramanyam.me">Sivasubramanyam A</a></span>

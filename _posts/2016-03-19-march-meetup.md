@@ -13,4 +13,4 @@ The meetup was more of a doubt clarification session for the freshers and they w
 on, what is done in it, etc.
 
 
-![The group]({{ site.url }}/img/2016MarchMeetup.jpg)
+![The group](/img/2016MarchMeetup.jpg)

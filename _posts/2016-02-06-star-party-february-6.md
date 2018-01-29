@@ -16,5 +16,5 @@ clouded out. We spotted the Eskimo nebula this time and it was the first time ma
 Photographs:
 
 The team
-![The team]({{ site.url }}/img/yelagirifeb16.jpg)
+![The team](/img/yelagirifeb16.jpg)
 <span class="image-credit">Photo Credit: <a href="https://twitter.com/sidharth9610">Sivasubramanyam A</a></span>

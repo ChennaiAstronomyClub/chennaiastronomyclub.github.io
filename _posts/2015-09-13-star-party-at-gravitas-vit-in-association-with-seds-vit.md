@@ -10,4 +10,4 @@ The Chennai Astronomy Club in association with SEDS-VIT conducted a star party a
 
 &nbsp;
 
-![All eyes on the skies.]({{ site.url }}/img/seds-vit.jpg)
+![All eyes on the skies.](/img/seds-vit.jpg)

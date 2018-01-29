@@ -17,8 +17,8 @@ The session was conducted by Manick Rajendran from the Amateur Astronomers Assoc
 Photographs:
 
 The session
-![The session]({{ site.url }}/img/mithilam1.jpg)
+![The session](/img/mithilam1.jpg)
 
 
 Solar goggles
-![Solar goggles]({{ site.url }}/img/mithilam2.jpg)
+![Solar goggles](/img/mithilam2.jpg)

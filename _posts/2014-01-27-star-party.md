@@ -33,9 +33,9 @@ The targets observed were:
 * Clouds at 3AM halted the event
 
 The observation site
-![The observation site]({{ site.url }}/img/party1.jpg)
+![The observation site](/img/party1.jpg)
 <span class="image-credit">Photo Credit: <a href="https://www.facebook.com/eniyan7">Tamil Eniyan</a></span>
 
 The team
-![The team]({{ site.url }}/img/party2.jpg)
+![The team](/img/party2.jpg)
 <span class="image-credit">Photo Credit: <a href="https://www.facebook.com/rajasekhar.devarapalli">Rajasekhar Devarapalli</a></span>

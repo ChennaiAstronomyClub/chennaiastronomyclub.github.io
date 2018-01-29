@@ -11,7 +11,7 @@ No time to scroll? Head to our <a href="/archive/">archive</a> for a quick looku
   <header class="post-header">
 
     <h4>
-      <a class="post-title" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      <a class="post-title" href="/{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
       {% if post.link %}
       <a class="post-title-link" href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-external-link"></i></a>
       {% endif %}
@@ -29,7 +29,7 @@ No time to scroll? Head to our <a href="/archive/">archive</a> for a quick looku
       </span>
       {% if post.tags.size > 0 %}
       {% for tag in post.tags %}
-      •<a class="post-tag" href="{{ site.url }}/tags/#{{ tag }}">{{ tag }}</a>
+      •<a class="post-tag" href="/tags/#{{ tag }}">{{ tag }}</a>
       {% endfor %}
       •
       {% endif %}
@@ -49,7 +49,7 @@ No time to scroll? Head to our <a href="/archive/">archive</a> for a quick looku
       {% if post.image.feature contains 'http' %}
       "{{ post.image.feature }}"
       {% else %}
-      "{{ site.url }}/img/{{ post.image.feature }}"
+      "/img/{{ post.image.feature }}"
       {% endif %}
       alt="{{ post.title }} feature image">
 

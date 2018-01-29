@@ -14,14 +14,14 @@ The launch was clearly visible and we got to see even the weather balloon that i
 
 Birds flying due to the sound of the rocket.
 
-![birds]({{ site.url }}/img/gslv1.jpg)
+![birds](/img/gslv1.jpg)
 <span class="image-credit">Photo Credit: <a href="https://sivasubramanyam.me">Sivasubramanyam A</a></span>
 
 The team
 
-![The team]({{ site.url }}/img/gslv2.jpg)
+![The team](/img/gslv2.jpg)
 
 The launch
 
-![The launch]({{ site.url }}/img/gslv3.jpg)
+![The launch](/img/gslv3.jpg)
 <span class="image-credit">Photo Credit: <a href="https://www.facebook.com/anticlocktime">Arun Siddharth</a></span>

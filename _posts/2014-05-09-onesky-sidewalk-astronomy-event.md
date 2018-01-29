@@ -13,8 +13,8 @@ About 400 people joined us in seeing the Moon, Jupiter, Mars and Saturn.
 
 Kids and elders alike were flocking in huge numbers and looked excitedly through the telescope.
 
-![The queue]({{ site.url }}/img/onesky1.jpg)
+![The queue](/img/onesky1.jpg)
 
-![The rush]({{ site.url }}/img/onesky2.jpg)
+![The rush](/img/onesky2.jpg)
 
-![The excitement]({{ site.url }}/img/onesky3.jpg)
+![The excitement](/img/onesky3.jpg)

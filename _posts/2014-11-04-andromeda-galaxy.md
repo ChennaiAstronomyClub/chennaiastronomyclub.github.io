@@ -7,5 +7,5 @@ tags: [andromeda]
 categories: [Astrophotography]
 ---
 
-![Andromeda galaxy]({{ site.url }}/img/andromeda.jpg)
+![Andromeda galaxy](/img/andromeda.jpg)
 <span class="image-credit">Photo Credit: <a href="https://www.facebook.com/eniyan7">Tamil Eniyan</a></span>

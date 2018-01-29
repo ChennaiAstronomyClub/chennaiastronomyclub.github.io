@@ -7,7 +7,7 @@ layout: two-col
   <header class="post-header">
 
     <h4>
-      <a class="post-title" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      <a class="post-title" href="/{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
       {% if post.link %}
       <a class="post-title-link" href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-external-link"></i></a>
       {% endif %}
@@ -26,7 +26,7 @@ layout: two-col
       {% if post.categories.size > 0 %}
       •
       {% for cat in post.categories %}
-      <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
+      <a class="post-cat" href="/categories/#{{ cat }}">{{ cat }}</a>
       {% endfor %}
       {% endif %}
     </p>
@@ -45,7 +45,7 @@ layout: two-col
       {% if post.image.feature contains 'http' %}
       "{{ post.image.feature }}"
       {% else %}
-      "{{ site.url }}/img/{{ post.image.feature }}"
+      "/img/{{ post.image.feature }}"
       {% endif %}
       alt="{{ post.title }} feature image">
 

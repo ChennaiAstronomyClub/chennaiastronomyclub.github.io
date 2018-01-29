@@ -8,7 +8,7 @@ layout: default
   {% if post.image.feature contains 'http' %}
   "{{ page.image.feature }}"
   {% else %}
-  "{{ site.url }}/img/{{ page.image.feature }}"
+  "/img/{{ page.image.feature }}"
   {% endif %}
   alt="{{ page.title }} feature image">
 

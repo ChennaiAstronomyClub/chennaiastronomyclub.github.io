@@ -10,10 +10,10 @@ Had an awesome time with some wonderful kids&#8230;showed Jupiter, Orion nebula 
 
 Science with games. What a way to connect with kids!
 
-![science game]({{ site.url }}/img/cross1.jpg)
+![science game](/img/cross1.jpg)
 
 Talk on astronomy
-![talk]({{ site.url }}/img/cross2.jpg)
+![talk](/img/cross2.jpg)
 
 Telescope time
-![telescope]({{ site.url }}/img/cross3.jpg)
+![telescope](/img/cross3.jpg)

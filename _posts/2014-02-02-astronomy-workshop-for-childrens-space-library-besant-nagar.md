@@ -15,6 +15,6 @@ Some interesting questions where:
 Why are planets round and asteroids aren't?
 Why is there no eclipse on every full moon day?
 
-![The telescope]({{ site.url }}/img/lib1.jpg)
+![The telescope](/img/lib1.jpg)
 
-![The session]({{ site.url }}/img/lib2.jpg)
+![The session](/img/lib2.jpg)

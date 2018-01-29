@@ -14,4 +14,4 @@ We then had a telescope session where we observed the moon and Jupiter.
 
 &nbsp;
 
-![The discussion session]({{ site.url }}/img/young-scientist.jpg)
+![The discussion session](/img/young-scientist.jpg)

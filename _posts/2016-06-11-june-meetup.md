@@ -13,4 +13,4 @@ The participants were given a brief introduction on reading star charts and were
 they were grouped in teams. They quickly learnt some stuff and seemed eager to join the future meetups as well.
 
 
-![The group]({{ site.url }}/img/2016JuneMeetup.jpg)
+![The group](/img/2016JuneMeetup.jpg)

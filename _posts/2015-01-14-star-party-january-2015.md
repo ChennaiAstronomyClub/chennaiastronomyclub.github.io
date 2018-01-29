@@ -10,14 +10,14 @@ Crystal clear winter skies. The winter milky way was visible to the naked eyes r
 
 Comet Lovejoy was definitely the best object of this star party. We could spot it with our naked eyes and could make out the tail with our eyes looking through the eyepiece of our telescope. It was definitely pretty big and the dark skies did help a lot in bringing out these faint details. The comet was about 2.5 times the size of what I saw from light polluted skies back home. The full view including the tail filled the entire field of view of the eyepiece(about 3 times the size of the moon).
 
-![Pleiades, Hyades and Comet Lovejoy]({{ site.url }}/img/janstar1.jpg)
+![Pleiades, Hyades and Comet Lovejoy](/img/janstar1.jpg)
 <span class="image-credit">Photo Credit: <a href="https://twitter.com/sidharth9610">Sidharth Srinivasan</a></span>
 
 Orion Nebula was fabulous as well. We could make out the entire cloud structure compared to only the central region that you get to see from Chennai. We were all agreeing with the fact that there was a pinkish glow towards the center of the nebula. NGC 1977 which is just north of the Orion Nebula was visible clearly too. We could also make out the Flame nebula and M78 in the Orion constellation.
 
 &nbsp;
 
-![Orion Nebula]({{ site.url }}/img/janstar2.jpg)
+![Orion Nebula](/img/janstar2.jpg)
 <span class="image-credit">Photo Credit: <a href="https://twitter.com/sidharth9610">Sidharth Srinivasan</a></span>
 
 We then saw the M41 open cluster in Canis Major which is a beauty to watch from those kind of skies. After that, we saw the Double Cluster in Perseus which is always a sight to behold from good skies.
@@ -32,5 +32,5 @@ We missed Eta Carinae which was a naked eye object the last time due to moon lig
 
 &nbsp;
 
-![The team]({{ site.url }}/img/janstar3.jpg)
+![The team](/img/janstar3.jpg)
 <span class="image-credit">Photo Credit: <a href="https://twitter.com/sidharth9610">Sidharth Srinivasan</a></span>

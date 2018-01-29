@@ -30,9 +30,9 @@ We missed a few objects like the Whirlpool, Pinwheel and Comet Catalina due to t
 Photographs:
 
 Star Trails
-![Star Trails]({{ site.url }}/img/winterstar121.jpg)
+![Star Trails](/img/winterstar121.jpg)
 <span class="image-credit">Photo Credit: <a href="https://twitter.com/sidharth9610">Sidharth Srinivasan</a></span>
 
 The team
-![The team]({{ site.url }}/img/winterstar122.jpg)
+![The team](/img/winterstar122.jpg)
 <span class="image-credit">Photo Credit: <a href="https://twitter.com/sidharth9610">Sidharth Srinivasan</a></span>

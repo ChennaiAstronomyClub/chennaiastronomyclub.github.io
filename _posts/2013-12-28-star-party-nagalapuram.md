@@ -23,6 +23,6 @@ we observed quite a lot of interesting objects. However, we missed the Virgo clu
 14. M37 or M36 in Auriga(Not sure about the ID)
 15. The milky way(with the naked eyes)
 
-![The Moon]({{ site.url }}/img/starparty1.jpg)
+![The Moon](/img/starparty1.jpg)
 
-![The team]({{ site.url }}/img/starparty2.jpg)
+![The team](/img/starparty2.jpg)

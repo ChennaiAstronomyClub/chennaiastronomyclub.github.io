@@ -15,13 +15,13 @@ Overall, a trip to remember!
 Photographs:
 
 Lift Off
-![Lift Off]({{ site.url }}/img/dec194.jpg)
+![Lift Off](/img/dec194.jpg)
 <span class="image-credit">Photo Credit: <a href="https://twitter.com/sidharth9610">Sidharth Srinivasan</a></span>
 
 First stage separation
-![First stage separation]({{ site.url }}/img/dec193.jpg)
+![First stage separation](/img/dec193.jpg)
 <span class="image-credit">Photo Credit: <a href="https://sivasubramanyam.me">Sivasubramanyam A</a></span>
 
 The team
-![The team]({{ site.url }}/img/dec191.jpg)
+![The team](/img/dec191.jpg)
 <span class="image-credit">Photo Credit: <a href="https://twitter.com/sidharth9610">Sidharth Srinivasan</a></span>

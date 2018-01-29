@@ -14,4 +14,4 @@ The observation session was marred by cloudy weather and we could only show the 
 
 &nbsp;
 
-![Deepak giving a talk]({{ site.url }}/img/summer-spark.jpg)
+![Deepak giving a talk](/img/summer-spark.jpg)
