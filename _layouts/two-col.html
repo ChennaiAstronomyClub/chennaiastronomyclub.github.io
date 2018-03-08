@@ -1,70 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include head.html %}
+  {% include head.html %}
 
-<body>
-  <div class="row">
-    <div class="col s12 m6">
-      <div class="cover table">
-        {% include sidebar.html %}
+  <body>
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="cover table">
+          {% include sidebar.html %}
+        </div>
       </div>
-    </div>
-    <div class="col s12 m6">
-      <div class="post-listing">
-        <h4>
-          Welcome
-        </h4>
-        <p>
-         The Chennai Astronomy Club was started in November 2013 by a group of like minded individuals committed to the cause of promoting astronomy in Chennai. Our activities include star parties where astronomers head to dark locations outside the city limits to observe the skies with their equipment. We also conduct regular meetings, hangouts and outreach programs for schools, organisations and the less priviledged.
-        </p>
-        <p>
-         Please check the <a href="/faq/">frequently asked questions</a> for details on joining the club, participating in our events, etc.
-        </p>
+      <div class="col s12 m6">
+        <div class="post-listing">
+          <h4>Welcome</h4>
+          <p>
+            The Chennai Astronomy Club was started in November 2013 by a group of like minded individuals committed to the cause of promoting astronomy in Chennai. Our activities include star parties where astronomers head to dark locations outside the city limits to observe the skies with their equipment. We also conduct regular meetings, hangouts and outreach programs for schools, organisations and the less priviledged.
+          </p>
+          <p>
+            Please check the <a href="/faq/">frequently asked questions</a> for details on joining the club, participating in our events, etc.
+          </p>
 
-        <h6>
-          Announcements
-        </h6>
-        {% if site.data.events.size > 0 %}
-          <ul>
-              {% for event in site.data.events %}
-                <li>
-                  {{ event.name }} on {{ event.date }}
-                  <p>
-                    {{ event.description }}
-                  </p>
-                  <p>
-                    {% if event.link %}
-                      <a href="{{ event.link }}">
-                        Registration Link
-                      </a>
-                    {% endif %}
-                    {% if event.infolink %}
-                      {% if event.infodesc %}
-                        <a href="{{ event.infolink }}">
-                         {{ event.infodesc }}
-                        </a>
-                        {% else %}
-                        <a href="{{ event.infolink }}">
-                          Read More
-                        </a>
-                      {% endif %}
-                    {% endif %}
-                  </p>
-                </li>
-              {% endfor %}
-          </ul>
-          {% else %}
+          <h6>Announcements</h6>
+          {% if site.data.events.size > 0 %}
+            <ul>
+                {% for event in site.data.events %}
+                  {% capture now %}{{ 'now' | date: "%d %B, %Y" }}{% endcapture %}
+                  {% capture post_expiry_date %}{{ event.expires | date: "%d %B, %Y" }}{% endcapture %}
+                  {% if now <= post_expiry_date %}
+                    {% capture event_count %}{{ 1 }}{% endcapture %}
+                    <li>
+                      {{ event.name }} on {{ event.date }}
+                      <p>{{ event.description }}</p>
+                      <p>
+                        {% if event.link %}
+                          <a href="{{ event.link }}">Registration Link</a>
+                        {% endif %}
+                        {% if event.infolink %}
+                          {% if event.infodesc %}
+                            <a href="{{ event.infolink }}">{{ event.infodesc }}</a>
+                          {% else %}
+                            <a href="{{ event.infolink }}">Read More</a>
+                          {% endif %}
+                        {% endif %}
+                      </p>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+            </ul>
+          {% endif %}
+          {% if event_count == null %}
             There is no event scheduled for now.
             Please Check again after a few days.<br>
             <blockquote>
               I think music is about our internal life. It's part of the way people touch each other. That's very precious to me. And astronomy is, in a sense, the very opposite thing. Instead of looking inwards, you are looking out, to things beyond our grasp. <strong>Brian May</strong>
             </blockquote>
-        {% endif %}
-        {% include footer.html %}
+          {% endif %}
+          {% include footer.html %}
+        </div>
       </div>
     </div>
-  </div>
-  {% include js.html %}
-</body>
+    {% include js.html %}
+  </body>
 </html>
