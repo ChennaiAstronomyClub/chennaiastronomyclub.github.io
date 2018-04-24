@@ -18,12 +18,13 @@ With the new found passion of amateur astronomy, people tend to rush their cogni
  
 <b>What are the types?</b>
 <br>
-With several varieties of telescopes available in the market, there are three general types of telescopes.
+With several varieties of telescopes available in the market, there are three general types of telescopes.<br>
 <b>Refractor Telescopes:</b> The good ol’ telescope model which collects light with the lens at the front of the telescope’s tube.<br>
 <b>Reflector Telescopes:</b> To gather light, reflectors use a curved mirror at the back end of the telescope's main tube. The reflected light is collected by the focuser to create the image.<br>
 <b>Compound Telescopes:</b> Compound telescopes(a.k.a catadioptric telescopes) use both lenses and mirrors to gather light. Simply put, it’s a combination of the Refractor and the Reflector.<br>
  
 <b>Ascertain the Fundamentals:</b><br>
+<br>
 Aperture, Focal Length, Magnification, and f/ratio are the must-know features of any telescope. Before buying a telescope, it is quintessential to comprehend the importance of the above features.<br>
 <b>Aperture:</b> The diameter of the primary lens, or mirror, in a telescope is designated as the Aperture. It is not only important for gathering light, but also for seeing detail. Larger the aperture, better the light collection - which means that you can see fainter objects. For starters, do not go any less than 130mm.<br>
 <b>Focal Length:</b> Focal length refers to the distance between the primary lens/mirror and the point where the object is brought into focus. Focal length is the major determining factor of any given telescope's magnifying power. Adding crude magnifications will not help you with rendering a good image. <br>
