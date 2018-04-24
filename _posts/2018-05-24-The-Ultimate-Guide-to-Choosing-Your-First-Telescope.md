@@ -6,7 +6,7 @@ permalink: /2018/05/24/The-Ultimate-Guide-to-Choosing-Your-First-Telescope/
 tags: [Tutorial]
 categories: [Tutorial]
 ---
-<b>The Ultimate Guide to Choosing Your First Telescope</b>
+#<b>The Ultimate Guide to Choosing Your First Telescope</b>
 <br>For <a href="https://www.facebook.com/groups/chennaiastronomyclub/">Chennai Astronomy Club</a> by <a href="https://www.facebook.com/dualshockk">Sabari Nath</a>
 <br>
 <br>I still remember myself as an 8-year-old atop my home gazing at the ocean of stars. Out of those innumerable stars stood an imperfect line of three stars, distinct and bright as ever. Since then I always wanted to spot that star trio. And for some reason, it was rewarding and satisfying to find those specific set of stars – which I later came to know as the Orion Belt. I am ever-curious and my love towards astronomy grew stronger each day. I wondered looking at the ultra-high resolution images of Saturn’s rings and Jupiter’s Redspot. And I happened to glance at Hubble’s image of Pillars of Creation, later to realize that the light from that distant nebula has, in fact, traveled for around 7000 light years to reach Hubble’s delicate sensors. Retrospecting this, we can also suppose that star-gazers are peaking at the glimpse of the past. This was quite a revelation for me.
@@ -24,7 +24,6 @@ With several varieties of telescopes available in the market, there are three ge
 <b>Compound Telescopes:</b> Compound telescopes(a.k.a catadioptric telescopes) use both lenses and mirrors to gather light. Simply put, it’s a combination of the Refractor and the Reflector.<br>
  
 <b>Ascertain the Fundamentals:</b><br>
-<br>
 Aperture, Focal Length, Magnification, and f/ratio are the must-know features of any telescope. Before buying a telescope, it is quintessential to comprehend the importance of the above features.<br>
 <b>Aperture:</b> The diameter of the primary lens, or mirror, in a telescope is designated as the Aperture. It is not only important for gathering light, but also for seeing detail. Larger the aperture, better the light collection - which means that you can see fainter objects. For starters, do not go any less than 130mm.<br>
 <b>Focal Length:</b> Focal length refers to the distance between the primary lens/mirror and the point where the object is brought into focus. Focal length is the major determining factor of any given telescope's magnifying power. Adding crude magnifications will not help you with rendering a good image. <br>
@@ -35,7 +34,7 @@ So, for example, my Celestron 130eq telescope is a 130mm aperture reflector with
 The range f/5 to f/10 is a fairly good one for general purpose telescopes. Telescopes with longer f/ratios perform well and are relatively void of optical distortions known as aberrations. People using short focus refractors experience chromatic aberration which renders false color around brighter objects. Short focus reflectors maintain sharp images in the center of the FOV but have a significant vignetting problem. 
 So, any aspiring amateur astronomer must understand how a telescope works. Learning the aforementioned features will let you select the telescope best suited for your requirement.
  
-<b>Mount Matters:</b>
+<b>Mount Matters:</b><br>
 A telescope is only as good as its mount. A telescope magnifies the sky, but unfortunately, it also magnifies the minuscule vibrations due to sundry factors.<br>
 <b>Altazimuth:</b> Altazimuth is the simplest type of mount with two motions, altitude (vertical) and azimuth (horizontal). Good Altazimuth mounts have knobs for making precise adjustments, aiding smooth tracking across the sky. These mounts can be used for terrestrial observation and are difficult to use for deep sky astrophotography.<br>
 <b>Dobsonian Mount:</b> The Dobsonian mount is a modified version of the Altazimuth mount. Dobsonian mounts are mounted on the ground by a heavy platform and designed to support massively sized Newtonian Reflectors.<br>
