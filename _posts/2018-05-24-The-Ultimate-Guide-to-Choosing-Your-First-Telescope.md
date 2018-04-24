@@ -19,11 +19,11 @@ With the new found passion of amateur astronomy, people tend to rush their cogni
 <b>What are the types?</b>
 <br>
 With several varieties of telescopes available in the market, there are three general types of telescopes.
-<b>Refractor Telescopes:</b> The good ol’ telescope model which collects light with the lens at the front of the telescope’s tube.
-<b>Reflector Telescopes:</b> To gather light, reflectors use a curved mirror at the back end of the telescope's main tube. The reflected light is collected by the focuser to create the image.
-<b>Compound Telescopes:</b> Compound telescopes(a.k.a catadioptric telescopes) use both lenses and mirrors to gather light. Simply put, it’s a combination of the Refractor and the Reflector.
+<b>Refractor Telescopes:</b> The good ol’ telescope model which collects light with the lens at the front of the telescope’s tube.<br>
+<b>Reflector Telescopes:</b> To gather light, reflectors use a curved mirror at the back end of the telescope's main tube. The reflected light is collected by the focuser to create the image.<br>
+<b>Compound Telescopes:</b> Compound telescopes(a.k.a catadioptric telescopes) use both lenses and mirrors to gather light. Simply put, it’s a combination of the Refractor and the Reflector.<br>
  
-<b>Ascertain the Fundamentals:</b>
+<b>Ascertain the Fundamentals:</b><br>
 Aperture, Focal Length, Magnification, and f/ratio are the must-know features of any telescope. Before buying a telescope, it is quintessential to comprehend the importance of the above features.<br>
 <b>Aperture:</b> The diameter of the primary lens, or mirror, in a telescope is designated as the Aperture. It is not only important for gathering light, but also for seeing detail. Larger the aperture, better the light collection - which means that you can see fainter objects. For starters, do not go any less than 130mm.<br>
 <b>Focal Length:</b> Focal length refers to the distance between the primary lens/mirror and the point where the object is brought into focus. Focal length is the major determining factor of any given telescope's magnifying power. Adding crude magnifications will not help you with rendering a good image. <br>
@@ -43,4 +43,5 @@ A telescope is only as good as its mount. A telescope magnifies the sky, but unf
  
 <b>Key Takeaway:</b>
 Control the adrenaline pumping in you, which forces you to buy a telescope without knowing the basics. First off, a good pair of binoculars makes a very good instrument for a budding amateur astronomer. Getting a telescope isn’t necessarily a prerequisite for being an amateur astronomer. A decent pair of binoculars will serve you just as well - while cutting some slack on your wallet. Give it a thought.<br>
+<br>
 Learn the fundamentals, explore the amateur astronomy community, feel free to approach a pro, realize what type of Astro-gazing you want to get yourself into, calculate the type of equipment needed for you, assess the budget required, consider the available budget, and factoring in all these variables, make an informed decision. Amateur astronomy is a costly affair, nonetheless a rewarding one. Looking at the stars will make you humble and will provide you with an opportunity to learn about the Universe, and in due process, Yourself. To infinity and beyond!
