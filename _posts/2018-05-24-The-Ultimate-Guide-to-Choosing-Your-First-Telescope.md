@@ -7,7 +7,7 @@ tags: [Tutorial]
 categories: [Tutorial]
 ---
 # <b>The Ultimate Guide to Choosing Your First Telescope</b>
-<br>For <a href="https://www.facebook.com/groups/chennaiastronomyclub/">Chennai Astronomy Club</a> by <a href="https://www.facebook.com/dualshockk">Sabari Nath</a>
+### <br>For <a href="https://www.facebook.com/groups/chennaiastronomyclub/">Chennai Astronomy Club</a> by <a href="https://www.facebook.com/dualshockk">Sabari Nath</a>
 <br>
 <br>I still remember myself as an 8-year-old atop my home gazing at the ocean of stars. Out of those innumerable stars stood an imperfect line of three stars, distinct and bright as ever. Since then I always wanted to spot that star trio. And for some reason, it was rewarding and satisfying to find those specific set of stars – which I later came to know as the Orion Belt. I am ever-curious and my love towards astronomy grew stronger each day. I wondered looking at the ultra-high resolution images of Saturn’s rings and Jupiter’s Redspot. And I happened to glance at Hubble’s image of Pillars of Creation, later to realize that the light from that distant nebula has, in fact, traveled for around 7000 light years to reach Hubble’s delicate sensors. Retrospecting this, we can also suppose that star-gazers are peaking at the glimpse of the past. This was quite a revelation for me.
 
@@ -17,9 +17,8 @@ So it was time, and I decided to plunge into amateur astronomy. I looked for beg
 With the new found passion of amateur astronomy, people tend to rush their cognition in choosing their first telescope. And the good news is that any and all telescope that you can buy is a good telescope – contrary to the popular belief – for it feeds your passion. This said, avoid buying a cheap plastic telescope from your local mall or Amazon. If you are proceeding with such products, avoid having high expectations as the 100x zoom promised in the product description isn’t going to fetch you your desired image. Likewise, do not spend too much on compound telescopes – as it kills the joy of learning the basics.
  
 ### <b>What are the types?</b>
-<br>
 With several varieties of telescopes available in the market, there are three general types of telescopes.<br>
-<b>Refractor Telescopes:</b> The good ol’ telescope model which collects light with the lens at the front of the telescope’s tube.<br>
+*<b>Refractor Telescopes:</b>* The good ol’ telescope model which collects light with the lens at the front of the telescope’s tube.<br>
 <b>Reflector Telescopes:</b> To gather light, reflectors use a curved mirror at the back end of the telescope's main tube. The reflected light is collected by the focuser to create the image.<br>
 <b>Compound Telescopes:</b> Compound telescopes(a.k.a catadioptric telescopes) use both lenses and mirrors to gather light. Simply put, it’s a combination of the Refractor and the Reflector.<br>
  
