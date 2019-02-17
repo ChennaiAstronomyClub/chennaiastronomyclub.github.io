@@ -51,4 +51,4 @@ Until next time,<br>
 Clear skies!<br>
 
 ![The team](/img/2019/star-party-february.jpeg)
-<span class="image-credit">Photo Credit: <a href="https://facebook.com/astronomersiva">Dr. Manikandan</a></span>
+<span class="image-credit">Photo Credit: Dr. Manikandan</span>
