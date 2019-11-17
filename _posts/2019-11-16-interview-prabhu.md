@@ -51,7 +51,7 @@ Here, I would suggest you to go all guns blazing. Set up your telescope. You mig
 Got a blurry smudge as your first image? Unable to track an object? Not sure about the ISO settings for the lunar crescent? Rain interrupted your star trail session? Fret not! It happens to the best of us. For instance, finding a dark sky in the urban centers would be troublesome. For brighter objects such as our moon, you can improvise on the situation by reducing the ISO and enhancing the image in post-processing. It will not be a perfect image that you would want. But you would’ve learned few post-processing techniques. For later sessions, you can plan to overcome that particular situation by getting an LPR (Light Pollution Reduction) filter, or if you want to go frugal, well, just plan ahead properly about the nearby dark zones. Either way, you would’ve become wiser by the end of the day.
 
 ![Orion Nebula](/img/2019/interview/6.jpg)
-<span class="image-credit">Orion Nebula</span>
+<span class="image-credit">Single exposure image of Orion Nebula</span>
 
 According to Prabhu, during his initial days, he too faced difficulties with light pollution and could not overcome the predicament by buying equipment. Apart from being costly, the availability of quality tools and its logistics are also known issues. So, he improvised and used the resources within his reach and learned more foolproof processing techniques. Perhaps his early experiments have contributed to his holistic approach.
 
