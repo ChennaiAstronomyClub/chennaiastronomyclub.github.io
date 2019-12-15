@@ -33,7 +33,13 @@
                       <p>{{ event.description }}</p>
                       <p>
                         {% if event.link %}
-                          <a href="{{ event.link }}">Registration Link</a>
+                          <a href="{{ event.link }}">
+                            {% if event.link_title %}
+                              {{event.link_title}}
+                            {% else %}
+                              Registration Link
+                            {% endif %}
+                          </a>
                         {% endif %}
                         {% if event.infolink %}
                           {% if event.infodesc %}
