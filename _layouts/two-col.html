@@ -20,48 +20,11 @@
             Please check the <a href="/faq/">frequently asked questions</a> for details on joining the club, participating in our events, etc.
           </p>
 
-          <h6>Announcements</h6>
-          {% if site.data.events.size > 0 %}
-            <ul>
-                {% for event in site.data.events %}
-                  {% capture now %}{{ 'now' | date: "%d %B, %Y" }}{% endcapture %}
-                  {% capture post_expiry_date %}{{ event.expires | date: "%d %B, %Y" }}{% endcapture %}
-                  {% if now <= post_expiry_date %}
-                    {% capture event_count %}{{ 1 }}{% endcapture %}
-                    <li>
-                      {{ event.name }} on {{ event.date }}
-                      <p>{{ event.description }}</p>
-                      <p>
-                        {% if event.link %}
-                          <a href="{{ event.link }}">
-                            {% if event.link_title %}
-                              {{event.link_title}}
-                            {% else %}
-                              Registration Link
-                            {% endif %}
-                          </a>
-                        {% endif %}
-                        {% if event.infolink %}
-                          {% if event.infodesc %}
-                            <a href="{{ event.infolink }}">{{ event.infodesc }}</a>
-                          {% else %}
-                            <a href="{{ event.infolink }}">Read More</a>
-                          {% endif %}
-                        {% endif %}
-                      </p>
-                    </li>
-                  {% endif %}
-                {% endfor %}
-            </ul>
-          {% endif %}
-          {% if event_count == null %}
-            There is no event scheduled for now.
-            Please check again after a few days.<br>
-            <blockquote>
-              I think music is about our internal life. It's part of the way people touch each other. That's very precious to me. And astronomy is, in a sense, the very opposite thing. Instead of looking inwards, you are looking out, to things beyond our grasp. <strong>Brian May</strong>
-            </blockquote>
-          {% endif %}
-          {% include footer.html %}
+          <h6>Events</h6>
+          
+          <p>
+            Please check our <a href="https://forum.chennaiastronomyclub.org/c/events/14">forums</a> for the latest events.
+          </p>
         </div>
       </div>
     </div>

@@ -5,31 +5,39 @@ permalink: /archive/
 ---
 
 <div class="archive">
+  <p>
+    Please note that this page is auto-synced and it may not always be exhaustive.
+    Please visit our forums at <a href="https://forum.chennaiastronomyclub.org/">forum.chennaiastronomyclub.org</a> to know the latest events.
+  </p>
   <div class="timeline" id="timeline">
-    {% for post in site.posts %}
-    {% unless post.next %}
-    <div class="archive-title">
-      <h4 class="archive-year">{{ post.date | date: '%Y' }}</h4>
-    </div>
-
-    <ul>
-    {% else %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-    {% if year != nyear %}
-    </ul>
-    <div class="archive-title">
-      <h4 class="archive-year">{{ post.date | date: '%Y' }}</h4>
-    </div>
-
-    <ul>
-    {% endif %}
-    {% endunless %}
-    <li>
-      <span>{{ post.date | date: "%b %-d" }}</span>&nbsp;~&nbsp;<i class="fa fa-angle-right"></i>&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% assign postsByYearSorted = site.data.imported.topics | sort: 'created_at' | reverse %}
+    {% assign postsByYear = postsByYearSorted | group_by_exp:"post", "post.created_at | date: '%Y'" %}
+    {% for year in postsByYear %}
+      <div class="archive-title">
+        <h4 class="archive-year">{{ year.name }}</h4>
+      </div>
+      <ul>
+        {% for post in year.items %}
+          <li>
+            <span>{{ post.created_at | date: "%b %-d" }}</span>&nbsp;~&nbsp;<i class="fa fa-angle-right"></i>&nbsp;<a href="https://forum.chennaiastronomyclub.org/t/{{ post.slug }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
     {% endfor %}
-    </ul>
 
+    {% assign postsByYearSorted = site.posts | sort: 'date' | reverse %}
+    {% assign postsByYear = postsByYearSorted | group_by_exp:"post", "post.date | date: '%Y'" %}
+    {% for year in postsByYear %}
+      <div class="archive-title">
+        <h4 class="archive-year">{{ year.name }}</h4>
+      </div>
+      <ul>
+        {% for post in year.items %}
+          <li>
+            <span>{{ post.date | date: "%b %-d" }}</span>&nbsp;~&nbsp;<i class="fa fa-angle-right"></i>&nbsp;<a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
   </div>
-
 </div>
