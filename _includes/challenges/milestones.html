@@ -1,0 +1,38 @@
+{% assign milestones = site.data.challenges.milestones %}
+<div id="challenges-milestones" class="milestone-track-wrap scroll-target">
+  <h3 class="article-title article-title--sm font-display" style="color:#f5ecd4;margin:0">Constellation milestones</h3>
+  <ol class="milestone-track" aria-label="Constellation count milestones">
+    {% for m in milestones %}
+    <li class="milestone-track__item{% if m.count == 88 %} milestone-track__item--finale{% endif %}" id="{{ m.id }}">
+      <span class="milestone-track__node" aria-hidden="true">{{ m.count }}</span>
+      <span class="milestone-track__label">{{ m.label }}</span>
+      <span class="milestone-track__count">{{ m.count }} {% if m.count == 1 %}constellation{% else %}constellations{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ol>
+  <p class="milestone-track__summary">
+    Write Tier A notes on each spread you attempt. Each constellation counts once. Partial or “not sure” nights still count toward the spread you tried.
+  </p>
+  {% assign finale = milestones | where: "count", 88 | first %}
+  {% if finale.note %}
+  <p class="milestone-track__note">{{ finale.note }}</p>
+  {% endif %}
+  <table class="milestone-sr-table" aria-label="Milestone details">
+    <thead>
+      <tr>
+        <th scope="col">Milestone</th>
+        <th scope="col">Target</th>
+        <th scope="col">Summary</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for m in milestones %}
+      <tr>
+        <th scope="row">{{ m.label }}</th>
+        <td>{{ m.count }}</td>
+        <td>{{ m.summary }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

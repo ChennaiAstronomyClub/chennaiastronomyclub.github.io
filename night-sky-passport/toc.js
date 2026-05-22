@@ -3,6 +3,9 @@
   if (!sidebar) return;
 
   const links = [...sidebar.querySelectorAll('a[href^="#"]')];
+  const chipLinks = [...document.querySelectorAll('.section-chips a[href^="#"]')];
+  const allLinks = [...links, ...chipLinks];
+
   const sections = links
     .map((link) => {
       const id = link.getAttribute('href').slice(1);
@@ -14,13 +17,15 @@
 
   if (!sections.length) return;
 
+  const shallowList = sidebar.querySelector('.toc-sidebar__list--shallow');
   let activeId = null;
   const scrollOffset = 96;
 
   function setActive(id) {
     if (id === activeId) return;
     activeId = id;
-    links.forEach((link) => {
+
+    allLinks.forEach((link) => {
       const match = link.getAttribute('href') === `#${id}`;
       link.classList.toggle('is-active', match);
       if (match) {
@@ -29,6 +34,17 @@
         link.removeAttribute('aria-current');
       }
     });
+
+    if (shallowList) {
+      shallowList.querySelectorAll(':scope > li').forEach((li) => {
+        li.classList.remove('is-expanded');
+      });
+      const activeLink = links.find((l) => l.getAttribute('href') === `#${id}`);
+      if (activeLink) {
+        const topLi = activeLink.closest('.toc-sidebar__list--shallow > li');
+        if (topLi) topLi.classList.add('is-expanded');
+      }
+    }
   }
 
   function updateActiveSection() {
@@ -58,7 +74,7 @@
     { passive: true }
   );
 
-  links.forEach((link) => {
+  allLinks.forEach((link) => {
     link.addEventListener('click', () => {
       const id = link.getAttribute('href').slice(1);
       setActive(id);

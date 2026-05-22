@@ -1,3 +1,6 @@
+---
+permalink: /night-sky-passport/
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="editorial.css" />
 </head>
 <body>
 
@@ -31,11 +35,11 @@
         <span>Chennai Astronomy Club</span>
       </a>
       <nav class="site-nav" aria-label="On this page">
-        <a href="#share-social">Share</a>
-        <a href="#about">About</a>
-        <a href="#how-to">How to use</a>
-        <a href="#challenges">Challenges</a>
-        <a href="#feedback">Feedback</a>
+        <a href="#share-social-title">Share</a>
+        <a href="#about-title">About</a>
+        <a href="#how-to-title">How to use</a>
+        <a href="{{ '/night-sky-passport/challenges.html' | relative_url }}">Challenges</a>
+        <a href="#feedback-title">Feedback</a>
       </nav>
     </div>
   </header>
@@ -149,66 +153,120 @@
       </div>
     </section>
 
-    <section id="share-social" class="share-banner scroll-target" aria-labelledby="share-social-title">
-      <p class="share-banner__eyebrow">Tag us for a shoutout</p>
-      <h2 id="share-social-title" class="share-banner__title">Share your night sky</h2>
-      <p class="share-banner__desc">
-        Spotted a constellation, filled a spread, or collected a stamp? Post a photo or story on social media and tag us — we love resharing your observing moments.
-      </p>
-      <div class="share-banner__links">
-        <a href="https://www.instagram.com/chennaiastronomyclub/" class="share-banner__link" rel="noopener noreferrer">
-          <span class="share-banner__platform">Instagram</span>
-          <span class="share-banner__handle">@chennaiastronomyclub</span>
-        </a>
-        <a href="https://x.com/CACAstronomers" class="share-banner__link" rel="noopener noreferrer">
-          <span class="share-banner__platform">X (Twitter)</span>
-          <span class="share-banner__handle">@CACAstronomers</span>
-        </a>
+    <ul class="section-chips" aria-label="Jump to section">
+      <li><a href="#hero-title">Passport</a></li>
+      <li><a href="#share-social-title">Share</a></li>
+      <li><a href="#about-title">About</a></li>
+      <li><a href="#how-to-title">How to use</a></li>
+      <li><a href="#challenges-title">Challenges</a></li>
+      <li><a href="#feedback-title">Feedback</a></li>
+    </ul>
+
+    {% include passport/quick-start.html %}
+
+    <section id="share-social" class="band band--night share-band scroll-target" aria-labelledby="share-social-title">
+      <div class="share-band__layout">
+        <div>
+          <p class="share-band__eyebrow">Tag us for a shoutout</p>
+          <h2 id="share-social-title" class="share-band__title">Share your night sky</h2>
+          <p class="share-band__desc">
+            Spotted a constellation, filled a spread, or collected a stamp? Post a photo and tag us — we love resharing your observing moments.
+          </p>
+          <div class="share-band__links">
+            <a href="https://www.instagram.com/chennaiastronomyclub/" class="share-band__link" rel="noopener noreferrer">
+              <span class="share-band__link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              </span>
+              <span class="share-band__link-text">
+                <span class="share-band__platform">Instagram</span>
+                <span class="share-band__handle">@chennaiastronomyclub</span>
+              </span>
+            </a>
+            <a href="https://x.com/CACAstronomers" class="share-band__link" rel="noopener noreferrer">
+              <span class="share-band__link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </span>
+              <span class="share-band__link-text">
+                <span class="share-band__platform">X (Twitter)</span>
+                <span class="share-band__handle">@CACAstronomers</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <figure class="share-band__thumb">
+          <img src="assets/sky-milky.jpg" alt="Milky Way band across the night sky" width="400" height="300" loading="lazy" decoding="async" />
+        </figure>
       </div>
     </section>
 
     <section id="about" class="scroll-target stack-lg" aria-labelledby="about-title">
       <h2 id="about-title" class="section-title">What is this passport?</h2>
-      <p>
-        The Night Sky Passport is a hands-on logbook: find a constellation in the night sky, write what you actually saw on the spread, and collect stamps or stickers when you attend Chennai Astronomy Club events. The more you use it, the more familiar the sky becomes.
-      </p>
 
-      <div class="card stack-sm">
-        <h3 id="about-club" class="card__label scroll-target">About Chennai Astronomy Club</h3>
-        <p class="text-base">
-          Since 2013, CAC has grown from a small community into star parties, public stargazing, workshops, and school outreach across Tamil Nadu. Everything is volunteer-run, and open to anyone curious enough to look up — no telescope required.
-        </p>
-        <p class="text-base">
-          This passport extends that spirit: spot a pattern, log your night, return to the sky again and again.
-        </p>
-        <p class="text-sm font-sans">
-          <a href="https://chennaiastronomyclub.org" class="link" rel="noopener noreferrer">chennaiastronomyclub.org</a>
-        </p>
+      <div class="layout-split">
+        <figure class="passport-stack" aria-label="Sample passport spread">
+          <div class="passport-stack__page passport-stack__page--back">
+            <img src="assets/spread-left.jpg" alt="" width="315" height="437" loading="lazy" decoding="async" />
+          </div>
+          <div class="passport-stack__page passport-stack__page--front">
+            <img src="assets/spread-right.jpg" alt="Monoceros passport spread — chart and notes pages" width="315" height="437" loading="lazy" decoding="async" />
+          </div>
+        </figure>
+        <div>
+          <p class="text-base">
+            A hands-on logbook for all 88 constellations: find a pattern in the real sky, write what you saw on the spread, and collect stamps at club events. The more you use it, the more familiar the sky becomes.
+          </p>
+
+          <div id="about-club" class="scroll-target stack-sm" style="margin-top:1.25rem">
+            <h3 class="article-title article-title--sm font-display">About Chennai Astronomy Club</h3>
+            <p class="text-base">
+              Since 2013, volunteer-run star parties, workshops, and outreach across Tamil Nadu — open to anyone curious enough to look up.
+            </p>
+            <p class="text-sm font-sans">
+              <a href="https://chennaiastronomyclub.org" class="link" rel="noopener noreferrer">chennaiastronomyclub.org</a>
+            </p>
+          </div>
+
+          <figure class="photo-mosaic" aria-label="Club community photos">
+            <figure class="photo-mosaic__item photo-mosaic__item--wide">
+              <img src="assets/community-starparty.jpg" alt="Chennai Astronomy Club members at a Kavalur star party" width="600" height="375" loading="lazy" decoding="async" />
+            </figure>
+            <figure class="photo-mosaic__item">
+              <img src="assets/sky-orion.jpg" alt="Orion Nebula at a CAC star party" width="300" height="188" loading="lazy" decoding="async" />
+            </figure>
+          </figure>
+          <p class="figure-credit">Photos: <a href="https://chennaiastronomyclub.org/2020/03/03/star-party/" rel="noopener noreferrer">Chirag Sagare</a>, <a href="https://chennaiastronomyclub.org/2015/01/14/star-party-january-2015/" rel="noopener noreferrer">Sidharth Srinivasan</a></p>
+        </div>
       </div>
 
-      <div class="card card--dashed">
-        <h3 id="stamps-stickers" class="card__label scroll-target">Stamps &amp; stickers</h3>
-        <p class="text-base">
+      <div id="stamps-stickers" class="scroll-target stack-sm" style="margin-top:1.5rem">
+        <h3 class="article-title article-title--sm font-display">Stamps &amp; stickers</h3>
+        <p class="text-base text-muted">
           Bring your passport to CAC events. Volunteers stamp your spread when you share a completed observation.
         </p>
-        <p class="text-base">
-          We also bring special stamps and stickers for star parties, monthly meetups, and other club gatherings — collect them when you attend.
-        </p>
       </div>
 
-      <div class="card stack-sm">
-        <h3 id="when-to-stamp" class="card__label scroll-target">When to get it stamped</h3>
-        <p class="text-base">
-          Look for stamping at these kinds of CAC gatherings:
-        </p>
-        <ul class="list-plain text-base">
-          <li><strong class="font-sans">Star parties</strong> — stargazing nights under dark skies.</li>
-          <li><strong class="font-sans">Monthly meetups</strong> — regular club get-togethers for members and friends.</li>
-          <li><strong class="font-sans">Other events</strong> — workshops, outreach, and special observing sessions.</li>
-        </ul>
-        <p class="text-base text-muted">
-          We announce dates and venues in the club group as and when we organise each one — watch there so you do not miss a stamping session.
-        </p>
+      <div id="when-to-stamp" class="stamp-cards scroll-target" aria-label="When to get your passport stamped">
+        <div class="stamp-card">
+          <span class="stamp-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3a6 6 0 0 0-9 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 6 6 0 0 0-9-9z"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/></svg>
+          </span>
+          <p class="stamp-card__title">Star parties</p>
+          <p class="stamp-card__desc">Stargazing nights under dark skies outside the city.</p>
+        </div>
+        <div class="stamp-card">
+          <span class="stamp-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </span>
+          <p class="stamp-card__title">Monthly meetups</p>
+          <p class="stamp-card__desc">Regular club get-togethers for members and friends.</p>
+        </div>
+        <div class="stamp-card">
+          <span class="stamp-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          </span>
+          <p class="stamp-card__title">Workshops &amp; outreach</p>
+          <p class="stamp-card__desc">School sessions and special observing events — dates announced in the club group.</p>
+        </div>
       </div>
     </section>
 
@@ -235,8 +293,8 @@
         </p>
       </article>
 
-      <article class="card stack-sm">
-        <h3 id="two-page-spread" class="card__label scroll-target">Each two-page spread</h3>
+      <article class="spread-showcase stack-sm scroll-target" id="two-page-spread">
+        <h3 class="article-title article-title--sm font-display">Each two-page spread</h3>
         <div class="spread-grid text-base">
           <figure class="spread-grid__figure">
             <img
@@ -311,73 +369,76 @@
         </ul>
       </aside>
 
-      <article class="stack-sm">
-        <h3 id="planetarium-apps" class="article-title article-title--sm font-display scroll-target">Planetarium apps</h3>
-        <p class="text-base">
-          Apps like Stellarium are fine to get started. Use red-night mode and low brightness. Once you recognise a few patterns, put the screen away and star-hop with the book.
-        </p>
-      </article>
-
-      <article class="stack-sm">
-        <h3 id="all-sky-charts" class="article-title article-title--sm font-display scroll-target">All-sky charts</h3>
-        <p class="text-base">
-          Hold the all-sky chart overhead and point chart-north to real north. When the chart faces upward like the sky, east and west align with the real sky.
-        </p>
-      </article>
-
-      <article class="stack-sm">
-        <h3 id="difficulty-ratings" class="article-title article-title--sm font-display scroll-target">Difficulty ratings</h3>
-        <p class="text-base">
-          Each spread shows two quick ratings to help you pick targets for the night:
-        </p>
-        <ul class="list-plain text-base">
-          <li><strong class="font-sans">Light pollution</strong> — how much city skyglow hides the pattern.</li>
-          <li><strong class="font-sans">Horizon</strong> — low altitude, murky air, or blocked sightlines.</li>
-        </ul>
-        <p class="text-base">
-          Both use the same scale: <strong class="font-sans">1</strong> = easiest, <strong class="font-sans">5</strong> = hardest. From Chennai, start with lower numbers; try higher ones on darker, clearer nights.
-        </p>
-      </article>
-
-      <article id="notes" class="scroll-target stack">
-        <h3 class="article-title font-display">Writing useful observation notes</h3>
-        <p class="text-base">
-          Record what happened at your spot — not labels copied from the chart. A <em>sky-only fact</em> is something only your eyes could know: which stars were visible, how low the pattern sat, where glare interfered, or which anchor helped you find it.
-        </p>
-
-        <div class="tier-grid">
-          <div class="tier-card">
-            <p class="tier-card__title">Tier A — always</p>
-            <ol>
-              <li>Date and time</li>
-              <li>Place and sky condition (clear, hazy, thin cloud, bright moon)</li>
-              <li>What you confirmed, missed, or could not hold</li>
-              <li>Confidence: Certain / Maybe / Not sure</li>
-            </ol>
-          </div>
-          <div class="tier-card">
-            <p class="tier-card__title">Tier B — if you have a minute</p>
-            <ol start="5">
-              <li>One more sky-only fact</li>
-              <li>One obstacle (light, haze, cloud, building, moon)</li>
-              <li>One thing to re-check next session</li>
-            </ol>
-          </div>
+      <details id="planetarium-apps" class="accordion-section scroll-target">
+        <summary>Planetarium apps</summary>
+        <div class="accordion-section__body">
+          <p>
+            Apps like Stellarium are fine to get started. Use red-night mode and low brightness. Once you recognise a few patterns, put the screen away and star-hop with the book.
+          </p>
         </div>
+      </details>
 
-        <p class="text-base text-italic text-muted">
-          Partial nights count. “Maybe,” “Not sure,” and “clouded out after ten minutes” are valid observations.
-        </p>
+      <details id="all-sky-charts" class="accordion-section scroll-target">
+        <summary>All-sky charts</summary>
+        <div class="accordion-section__body">
+          <p>
+            Hold the all-sky chart overhead and point chart-north to real north. When the chart faces upward like the sky, east and west align with the real sky.
+          </p>
+        </div>
+      </details>
 
-        <details class="example-notes">
-          <summary>Example notes</summary>
-          <ul>
-            <li><strong class="font-sans text-muted">Weak:</strong> “Saw Orion. Nice.”</li>
-            <li><strong class="font-sans text-muted">Better:</strong> “8:40 pm, terrace, haze south. Found belt first; shield stars unclear. Confidence: Maybe. Re-check at 9:10 pm.”</li>
-            <li><strong class="font-sans text-muted">Honest miss:</strong> “9 pm, balcony, thin high cloud. Could not hold the faint pairs; stopped before moonrise. Confidence: Not sure. Re-check on a clearer night.”</li>
+      <details id="difficulty-ratings" class="accordion-section scroll-target">
+        <summary>Difficulty ratings</summary>
+        <div class="accordion-section__body">
+          <p>Each spread shows two quick ratings to help you pick targets for the night:</p>
+          <ul class="list-plain">
+            <li><strong class="font-sans">Light pollution</strong> — how much city skyglow hides the pattern.</li>
+            <li><strong class="font-sans">Horizon</strong> — low altitude, murky air, or blocked sightlines.</li>
           </ul>
-        </details>
-      </article>
+          <p>
+            Both use the same scale: <strong class="font-sans">1</strong> = easiest, <strong class="font-sans">5</strong> = hardest. From Chennai, start with lower numbers; try higher ones on darker, clearer nights.
+          </p>
+        </div>
+      </details>
+
+      <details id="notes" class="accordion-section scroll-target" open>
+        <summary>Writing useful observation notes</summary>
+        <div class="accordion-section__body">
+          <p>
+            Record what happened at your spot — not labels copied from the chart. A <em>sky-only fact</em> is something only your eyes could know: which stars were visible, how low the pattern sat, where glare interfered, or which anchor helped you find it.
+          </p>
+          <div class="tier-grid">
+            <div class="tier-card">
+              <p class="tier-card__title">Tier A — always</p>
+              <ol>
+                <li>Date and time</li>
+                <li>Place and sky condition (clear, hazy, thin cloud, bright moon)</li>
+                <li>What you confirmed, missed, or could not hold</li>
+                <li>Confidence: Certain / Maybe / Not sure</li>
+              </ol>
+            </div>
+            <div class="tier-card">
+              <p class="tier-card__title">Tier B — if you have a minute</p>
+              <ol start="5">
+                <li>One more sky-only fact</li>
+                <li>One obstacle (light, haze, cloud, building, moon)</li>
+                <li>One thing to re-check next session</li>
+              </ol>
+            </div>
+          </div>
+          <p class="text-muted" style="font-style:italic">
+            Partial nights count. “Maybe,” “Not sure,” and “clouded out after ten minutes” are valid observations.
+          </p>
+          <details class="example-notes">
+            <summary>Example notes</summary>
+            <ul>
+              <li><strong class="font-sans text-muted">Weak:</strong> “Saw Orion. Nice.”</li>
+              <li><strong class="font-sans text-muted">Better:</strong> “8:40 pm, terrace, haze south. Found belt first; shield stars unclear. Confidence: Maybe. Re-check at 9:10 pm.”</li>
+              <li><strong class="font-sans text-muted">Honest miss:</strong> “9 pm, balcony, thin high cloud. Could not hold the faint pairs; stopped before moonrise. Confidence: Not sure. Re-check on a clearer night.”</li>
+            </ul>
+          </details>
+        </div>
+      </details>
     </section>
 
     <section id="challenges" class="scroll-target stack-lg" aria-labelledby="challenges-title">
@@ -386,129 +447,39 @@
         Complete challenges in the real sky, log them in your passport, and collect recognition at CAC events when available.
       </p>
 
-      <article class="challenge">
-        <div class="challenge__head">
-          <h3 id="observe-constellation" class="challenge__title scroll-target">Observe a constellation</h3>
-          <span class="badge">Ongoing</span>
-        </div>
-        <div class="challenge__body">
-          <p>
-            <strong class="font-sans">Goal:</strong>
-            Identify any constellation from this passport in the real night sky with the naked eye or binoculars.
-          </p>
-          <p>
-            <strong class="font-sans">How to complete:</strong>
-            Write Tier A notes on that spread (date, place, sky condition, confidence). Optional: bring the book to a CAC event for a stamp.
-          </p>
-          <p class="challenge__tip">
-            Tip: If the target is faint, start from a <span class="font-sans">★</span> anchor constellation in the same section and star-hop across.
-          </p>
-        </div>
-      </article>
+      {% include challenges/rules.html %}
 
-      <article class="challenge">
-        <div class="challenge__head">
-          <h3 id="challenge-10-constellations" class="challenge__title scroll-target">10 constellations challenge</h3>
-          <span class="badge">Ongoing</span>
-        </div>
-        <div class="challenge__body">
-          <p>
-            <strong class="font-sans">Goal:</strong>
-            Observe 10 different constellations from this passport in the real night sky with the naked eye or binoculars.
-          </p>
-          <p>
-            <strong class="font-sans">How to complete:</strong>
-            Write Tier A notes on each spread (date, place, sky condition, confidence). Each constellation counts once. Optional: bring the book to a CAC event for recognition when available.
-          </p>
-        </div>
-      </article>
+      <div class="band band--night" style="margin-top:1rem">
+        {% include challenges/milestones.html %}
+      </div>
 
-      <article class="challenge">
-        <div class="challenge__head">
-          <h3 id="challenge-25-constellations" class="challenge__title scroll-target">25 constellations challenge</h3>
-          <span class="badge">Ongoing</span>
-        </div>
-        <div class="challenge__body">
-          <p>
-            <strong class="font-sans">Goal:</strong>
-            Observe 25 different constellations from this passport in the real night sky with the naked eye or binoculars.
-          </p>
-          <p>
-            <strong class="font-sans">How to complete:</strong>
-            Same as the 10-constellation challenge — Tier A notes on each spread, one count per constellation. Optional: collect recognition at a CAC event when available.
-          </p>
-        </div>
-      </article>
-
-      <article class="challenge">
-        <div class="challenge__head">
-          <h3 id="challenge-50-constellations" class="challenge__title scroll-target">50 constellations challenge</h3>
-          <span class="badge">Ongoing</span>
-        </div>
-        <div class="challenge__body">
-          <p>
-            <strong class="font-sans">Goal:</strong>
-            Observe 50 different constellations from this passport in the real night sky with the naked eye or binoculars.
-          </p>
-          <p>
-            <strong class="font-sans">How to complete:</strong>
-            Tier A notes on 50 distinct spreads. Partial or “not sure” nights still count toward the spread you attempted. Optional: bring the book to a CAC event for recognition when available.
-          </p>
-        </div>
-      </article>
-
-      <article class="challenge">
-        <div class="challenge__head">
-          <h3 id="challenge-75-constellations" class="challenge__title scroll-target">75 constellations challenge</h3>
-          <span class="badge">Ongoing</span>
-        </div>
-        <div class="challenge__body">
-          <p>
-            <strong class="font-sans">Goal:</strong>
-            Observe 75 different constellations from this passport in the real night sky with the naked eye or binoculars.
-          </p>
-          <p>
-            <strong class="font-sans">How to complete:</strong>
-            Tier A notes on 75 distinct spreads across both parts of the book. Optional: collect recognition at a CAC event when available.
-          </p>
-        </div>
-      </article>
-
-      <article class="challenge">
-        <div class="challenge__head">
-          <h3 id="challenge-88-constellations" class="challenge__title scroll-target">88 constellations challenge</h3>
-          <span class="badge">Ongoing</span>
-        </div>
-        <div class="challenge__body">
-          <p>
-            <strong class="font-sans">Goal:</strong>
-            Observe all 88 IAU constellations in this passport in the real night sky with the naked eye or binoculars — the full atlas.
-          </p>
-          <p>
-            <strong class="font-sans">How to complete:</strong>
-            Tier A notes on every spread in the book. This is a long-term sky tour; work season by season and return to faint targets on darker nights. Optional: bring the completed passport to a CAC event for recognition when available.
-          </p>
-          <p class="challenge__tip">
-            Tip: Use anchor <span class="font-sans">★</span> constellations and all-sky charts to link sections across the year.
-          </p>
-        </div>
-      </article>
+      {% include challenges/featured.html %}
+      <p class="text-base">
+        <a href="{{ '/night-sky-passport/challenges.html' | relative_url }}" class="link font-sans">Browse all challenges →</a>
+      </p>
     </section>
 
-    <section id="feedback" class="scroll-target stack" aria-labelledby="feedback-title">
+    <section id="feedback" class="scroll-target" aria-labelledby="feedback-title">
       <h2 id="feedback-title" class="section-title">Feedback</h2>
-      <p class="text-base">
-        Questions about the passport, typos, unclear instructions, stamps, or challenges? We would like to hear from you.
-      </p>
-      <p class="font-sans text-base">
-        <a
-          href="mailto:contact@chennaiastronomyclub.org?subject=Night%20Sky%20Passport%20feedback"
-          class="link link--email"
-        >contact@chennaiastronomyclub.org</a>
-      </p>
-      <p class="text-sm text-muted">
-        Please include the constellation or page if relevant, and whether you are writing about observing, stamps, or event logistics.
-      </p>
+      <div class="feedback-cta">
+        <span class="feedback-cta__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+        </span>
+        <div class="feedback-cta__body">
+          <p class="text-base">
+            Questions about the passport, typos, stamps, or challenges? We would like to hear from you.
+          </p>
+          <p class="font-sans text-base feedback-cta__email">
+            <a
+              href="mailto:contact@chennaiastronomyclub.org?subject=Night%20Sky%20Passport%20feedback"
+              class="link link--email"
+            >contact@chennaiastronomyclub.org</a>
+          </p>
+          <p class="text-sm text-muted">
+            Include the constellation or page if relevant.
+          </p>
+        </div>
+      </div>
     </section>
 
   </main>
@@ -516,9 +487,14 @@
   <aside class="toc-sidebar" aria-label="Table of contents">
     <nav class="toc-sidebar__nav">
       <p class="toc-sidebar__label">On this page</p>
-      <ol class="toc-sidebar__list">
+      <ol class="toc-sidebar__list toc-sidebar__list--shallow">
         <li><a href="#hero-title">Night Sky Passport</a></li>
-        <li><a href="#share-social-title">Share your night sky</a></li>
+        <li>
+          <a href="#share-social-title">Share your night sky</a>
+          <ol>
+            <li><a href="#share-social-title">Tag us</a></li>
+          </ol>
+        </li>
         <li>
           <a href="#about-title">What is this passport?</a>
           <ol>
@@ -543,12 +519,10 @@
         <li>
           <a href="#challenges-title">Ongoing badges, stamps &amp; challenges</a>
           <ol>
-            <li><a href="#observe-constellation">Observe a constellation</a></li>
-            <li><a href="#challenge-10-constellations">10 constellations challenge</a></li>
-            <li><a href="#challenge-25-constellations">25 constellations challenge</a></li>
-            <li><a href="#challenge-50-constellations">50 constellations challenge</a></li>
-            <li><a href="#challenge-75-constellations">75 constellations challenge</a></li>
-            <li><a href="#challenge-88-constellations">88 constellations challenge</a></li>
+            <li><a href="#challenges-rules">How challenges work</a></li>
+            <li><a href="#challenges-milestones">Constellation milestones</a></li>
+            <li><a href="#challenges-featured">Featured challenges</a></li>
+            <li><a href="{{ '/night-sky-passport/challenges.html' | relative_url }}">All challenges</a></li>
           </ol>
         </li>
         <li><a href="#feedback-title">Feedback</a></li>

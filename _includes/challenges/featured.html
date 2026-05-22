@@ -1,0 +1,31 @@
+{% assign data = site.data.challenges %}
+{% assign featured_ids = data.featured %}
+{% if featured_ids.size > 0 %}
+<div id="challenges-featured" class="stack-sm">
+  <h3 class="article-title article-title--sm font-display scroll-target">Featured challenges</h3>
+  <ul class="challenge-index" aria-label="Featured challenges">
+    {% for feat_id in featured_ids %}
+      {% for cat in data.categories %}
+        {% for ch in cat.challenges %}
+          {% if ch.id == feat_id %}
+          <li class="challenge-index__row" id="{{ ch.id }}" data-category="{{ cat.id }}">
+            <div class="challenge-index__main">
+              <h4 class="challenge-index__title font-sans">{{ ch.title }}</h4>
+              <p class="challenge-index__summary text-muted">{{ ch.summary }}</p>
+            </div>
+            {% if ch.details %}
+            <details class="challenge-index__details">
+              <summary class="font-sans">Details</summary>
+              <div class="challenge-index__details-body text-base">
+                {{ ch.details | markdownify }}
+              </div>
+            </details>
+            {% endif %}
+          </li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

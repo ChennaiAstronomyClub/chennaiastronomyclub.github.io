@@ -1,0 +1,43 @@
+featured:
+  - challenge-bright-stars
+
+milestones:
+  - id: observe-constellation
+    label: First anchor
+    count: 1
+    summary: One constellation in the real sky — any spread counts.
+  - id: challenge-10-constellations
+    label: Pattern reader
+    count: 10
+    summary: Ten distinct patterns logged; you are reading the map, not memorising one corner.
+  - id: challenge-25-constellations
+    label: Season bridge
+    count: 25
+    summary: Twenty-five spreads — seasonal sections start to link in your head.
+  - id: challenge-50-constellations
+    label: Half-atlas watcher
+    count: 50
+    summary: Half the book attempted; honest “not sure” nights still count.
+  - id: challenge-75-constellations
+    label: Faint-sky chaser
+    count: 75
+    summary: Seventy-five down — reserve the faintest pages for darker skies.
+  - id: challenge-88-constellations
+    label: Atlas keeper
+    count: 88
+    summary: All eighty-eight IAU constellations — the long tour complete.
+    note: Work season by season and return to faint targets on darker nights. Use anchor ★ constellations and all-sky charts to link sections across the year.
+
+categories:
+  - id: sky-targets
+    label: Sky targets
+    challenges:
+      - id: challenge-bright-stars
+        title: Bright Stars Challenge
+        summary: Identify 10 different named bright stars from the passport in the real night sky with the naked eye or binoculars.
+        details: |
+          **Which stars count:** Use the appendix table **Bright stars in charts** at the back of the book. It lists every proper name printed on a constellation chart — stars brighter than about magnitude 2.5, plus each constellation’s alpha and brightest star when they carry a traditional name.
+
+          Find the star in the sky (start from the chart on that constellation’s spread), then write Tier A notes on that spread with which star you confirmed. Each star counts once even if it appears on multiple charts.
+
+          **Tip:** Begin with easy landmarks — Sirius, Vega, Arcturus, Capella, Betelgeuse — then work through the appendix season by season. The full list has 93 named chart stars for a long-term sky tour.

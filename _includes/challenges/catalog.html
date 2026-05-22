@@ -1,0 +1,73 @@
+{% assign data = site.data.challenges %}
+<div class="challenge-catalog stack-lg">
+  <div class="challenge-catalog__toolbar stack-sm">
+    <label class="challenge-catalog__search-label font-sans" for="challenge-search">Search challenges</label>
+    <input
+      type="search"
+      id="challenge-search"
+      class="challenge-catalog__search font-sans"
+      placeholder="Search by name or target…"
+      autocomplete="off"
+    />
+    <div class="challenge-catalog__filters" role="group" aria-label="Filter by category">
+      <button type="button" class="challenge-catalog__filter is-active font-sans" data-filter="all">All</button>
+      {% for cat in data.categories %}
+      <button type="button" class="challenge-catalog__filter font-sans" data-filter="{{ cat.id }}">{{ cat.label }}</button>
+      {% endfor %}
+      <button type="button" class="challenge-catalog__filter font-sans" data-filter="milestones">Milestones</button>
+    </div>
+    <p class="challenge-catalog__empty text-muted text-base" hidden>No challenges match your search.</p>
+  </div>
+
+  <details class="challenge-category" id="category-milestones" data-category="milestones">
+    <summary class="challenge-category__summary font-sans">
+      Constellation milestones
+      <span class="challenge-category__count">({{ data.milestones.size }})</span>
+    </summary>
+    <ul class="challenge-index">
+      {% for m in data.milestones %}
+      <li class="challenge-index__row" id="{{ m.id }}" data-category="milestones" data-search="{{ m.label }} {{ m.summary }}">
+        <div class="challenge-index__main">
+          <h3 class="challenge-index__title font-sans">{{ m.label }}</h3>
+          <p class="challenge-index__summary text-muted">{{ m.summary }}</p>
+        </div>
+        {% if m.note %}
+        <details class="challenge-index__details">
+          <summary class="font-sans">Details</summary>
+          <div class="challenge-index__details-body text-base">
+            <p>{{ m.note }}</p>
+          </div>
+        </details>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </details>
+
+  {% for cat in data.categories %}
+  <details class="challenge-category" id="category-{{ cat.id }}" data-category="{{ cat.id }}">
+    <summary class="challenge-category__summary font-sans">
+      {{ cat.label }}
+      <span class="challenge-category__count">({{ cat.challenges.size }})</span>
+    </summary>
+    <ul class="challenge-index">
+      {% for ch in cat.challenges %}
+      <li class="challenge-index__row" id="{{ ch.id }}" data-category="{{ cat.id }}" data-search="{{ ch.title }} {{ ch.summary }}">
+        <div class="challenge-index__main">
+          <h3 class="challenge-index__title font-sans">{{ ch.title }}</h3>
+          <p class="challenge-index__summary text-muted">{{ ch.summary }}</p>
+        </div>
+        {% if ch.details %}
+        <details class="challenge-index__details">
+          <summary class="font-sans">Details</summary>
+          <div class="challenge-index__details-body text-base">
+            {{ ch.details | markdownify }}
+          </div>
+        </details>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </details>
+  {% endfor %}
+</div>

@@ -1,0 +1,76 @@
+---
+permalink: /night-sky-passport/challenges.html
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Night Sky Passport challenges — milestones, sky targets, and badges for Chennai Astronomy Club." />
+  <title>Challenges — Night Sky Passport</title>
+  <link rel="icon" href="https://chennaiastronomyclub.org/favicon.ico" sizes="any" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="editorial.css" />
+</head>
+<body class="challenges-page">
+
+  <div class="stars-bg" aria-hidden="true">
+    <span class="star-dot" style="top:8%;left:6%"></span>
+    <span class="star-dot" style="top:22%;left:78%"></span>
+    <span class="star-dot" style="top:48%;left:4%"></span>
+    <span class="star-dot" style="top:78%;left:15%"></span>
+  </div>
+
+  <header class="site-header">
+    <div class="site-shell site-shell--header">
+      <a href="https://chennaiastronomyclub.org" class="site-header__brand" rel="noopener noreferrer">
+        <img src="assets/cac_logo.png" alt="" class="site-header__logo" width="120" height="40" decoding="async" />
+        <span>Chennai Astronomy Club</span>
+      </a>
+      <nav class="site-nav" aria-label="On this page">
+        <a href="{{ '/night-sky-passport/' | relative_url }}">Help</a>
+        <a href="#catalog-title" aria-current="page">Challenges</a>
+        <a href="{{ '/night-sky-passport/' | relative_url }}#feedback-title">Feedback</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="site-shell">
+  <main class="site-content">
+
+    <section class="page-intro stack-lg" aria-labelledby="catalog-title">
+      <h1 id="catalog-title" class="section-title">Challenges</h1>
+      <p class="text-base">
+        Complete challenges in the real sky, log them in your passport, and collect recognition at CAC events when available.
+        <a href="{{ '/night-sky-passport/' | relative_url }}#challenges" class="link font-sans">How challenges work on the help page →</a>
+      </p>
+
+      {% include challenges/rules.html %}
+
+      <div class="band band--night">
+        {% include challenges/milestones.html %}
+      </div>
+
+      {% include challenges/catalog.html %}
+    </section>
+
+  </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="site-shell site-footer__inner">
+      <p>
+        <a href="https://chennaiastronomyclub.org" rel="noopener noreferrer">Chennai Astronomy Club</a>
+        ·
+        <a href="{{ '/night-sky-passport/' | relative_url }}">Night Sky Passport help</a>
+      </p>
+      <p class="site-footer__copy">Copyright © 2026 Chennai Astronomy Club. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="challenges.js" defer></script>
+</body>
+</html>
