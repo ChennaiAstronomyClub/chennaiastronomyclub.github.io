@@ -6,7 +6,7 @@ permalink: /2018/05/04/first-telescope/
 tags: [Tutorial]
 categories: [Tutorial]
 ---
-For [Chennai Astronomy Club](https://www.facebook.com/groups/chennaiastronomyclub/) by [Sabari Nath](https://www.facebook.com/dualshockk)
+For [Chennai Astronomy Club](https://www.facebook.com/groups/chennaiastronomyclub/) by [Sabari Nath](https://www.facebook.com/WriterSaby)
 
 I still remember myself as an 8-year-old atop my home gazing at the ocean of stars. Out of those innumerable stars stood an imperfect line of three stars, distinct and bright as ever. Since then I always wanted to spot that star trio. And for some reason, it was rewarding and satisfying to find those specific set of stars – which I later came to know as the Orion Belt. I am ever-curious and my love towards astronomy grew stronger each day. I wondered looking at the ultra-high resolution images of Saturn’s rings and Jupiter’s Redspot. And I happened to glance at Hubble’s image of Pillars of Creation, later to realize that the light from that distant nebula has, in fact, traveled for around 7000 light years to reach Hubble’s delicate sensors. Retrospecting this, we can also suppose that star-gazers are peaking at the glimpse of the past. This was quite a revelation for me.
 
